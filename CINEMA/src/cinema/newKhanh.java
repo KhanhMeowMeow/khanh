@@ -11,6 +11,6 @@ package cinema;
 
 public class newKhanh {
      public static void main(String[] args) {
-         System.out.println("Khánh");
+         System.out.println("cho mày sửa chét mẹ m");
     }
 }
