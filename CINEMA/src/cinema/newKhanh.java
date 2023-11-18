@@ -8,6 +8,9 @@ package cinema;
  *
  * @author nguye
  */
+
 public class newKhanh {
-    
+     public static void main(String[] args) {
+         System.out.println("truòng");
+    }
 }
