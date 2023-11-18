@@ -10,6 +10,6 @@ package cinema;
  */
 public class NewClass {
     public static void main(String[] args) {
-        System.out.println("Khánh up date");
+        System.out.println("kánh oke chưa");
     }
 }
