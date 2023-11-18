@@ -11,6 +11,6 @@ package cinema;
 
 public class newKhanh {
      public static void main(String[] args) {
-         System.out.println("cinema.newKhanh.main()");
+         System.out.println("khánh");
     }
 }
