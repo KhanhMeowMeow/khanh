@@ -65,7 +65,7 @@ public class DangKy {
        lblLeft.setBackground(new Color(255,240,235));
        mainFrame.add(lblLeft);
        
-        ImageIcon image2 = new ImageIcon("D:\\CINEMA\\src\\img\\b.gif");
+        ImageIcon image2 = new ImageIcon(getClass().getResource("/img/b.gif"));
         lblRight = new JLabel(image2);
         lblRight.setBounds(0, 0, w / 2-100 , h);
         lblRight.setOpaque(true);
@@ -102,7 +102,7 @@ public class DangKy {
         mainPanel.setBackground(new Color(255,240,235));       
         lblLeft.add(mainPanel);
         
-        ImageIcon image = new ImageIcon("D:\\CINEMA\\src\\img\\user.png");       
+        ImageIcon image = new ImageIcon(getClass().getResource("/img/user.png"));       
         lblUsername = new JLabel(image, JLabel.RIGHT);
         lblUsername.setPreferredSize(new Dimension(cw-155, ch));
         lblUsername.setFont(new Font("Arial", 1, 20));
@@ -127,7 +127,7 @@ public class DangKy {
         txtUsername.setPreferredSize(new Dimension(2*cw+20, ch));
         mainPanel.add(txtUsername);
         ///////////////
-        ImageIcon email = new ImageIcon("D:\\CINEMA\\src\\img\\email.png");       
+        ImageIcon email = new ImageIcon(getClass().getResource("/img/email.png"));       
         lblEmail = new JLabel(email, JLabel.CENTER);
         lblEmail.setPreferredSize(new Dimension(cw-155, ch+12));
         lblEmail.setOpaque(true);
@@ -154,7 +154,7 @@ public class DangKy {
         mainPanel.add(txtEmail);  
 
         ///////////////
-        ImageIcon key = new ImageIcon("D:\\CINEMA\\src\\img\\lock.png");       
+        ImageIcon key = new ImageIcon(getClass().getResource("/img/lock.png"));       
         lblPassword = new JLabel(key, JLabel.RIGHT);
         lblPassword.setPreferredSize(new Dimension(cw-155, ch));
         lblPassword.setFont(new Font("Arial", 1, 20));
@@ -179,7 +179,7 @@ public class DangKy {
         txtPassword.setPreferredSize(new Dimension(2*cw+20, ch));
         mainPanel.add(txtPassword);
      ///////////////
-        ImageIcon key1 = new ImageIcon("D:\\CINEMA\\src\\img\\xnkey.png");       
+        ImageIcon key1 = new ImageIcon(getClass().getResource("/img/xnkey.png"));       
         lblPassword1 = new JLabel(key1, JLabel.RIGHT);
         lblPassword1.setPreferredSize(new Dimension(cw-155, ch));
         lblPassword1.setFont(new Font("Arial", 1, 20));
@@ -225,6 +225,18 @@ public class DangKy {
     }
     
     public static void main(String[] args) {
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Windows".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+        } catch (InstantiationException ex) {
+        } catch (IllegalAccessException ex) {
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        }
         new DangKy();
     }
     
