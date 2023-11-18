@@ -12,5 +12,6 @@ package cinema;
 public class newKhanh {
      public static void main(String[] args) {
          System.out.println("lòi lồn luôn");
+     // khánh đã tồn tại ở đây
     }
 }
