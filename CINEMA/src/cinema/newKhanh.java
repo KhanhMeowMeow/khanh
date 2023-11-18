@@ -6,12 +6,11 @@ package cinema;
 
 /**
  *
- * @author Truong
+ * @author nguye
  */
-public class NewClass {
-    public static void main(String[] args) {
 
-        System.out.println("kánh oke chưa");
-
+public class newKhanh {
+     public static void main(String[] args) {
+         System.out.println("lòi lồn luôn");
     }
 }
