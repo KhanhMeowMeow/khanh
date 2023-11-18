@@ -9,5 +9,5 @@ package cinema;
  * @author nguye
  */
 public class khanh {
-    
+    jfjgfgfjg
 }
