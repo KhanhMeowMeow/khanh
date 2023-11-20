@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//KHánh đã có mặt ở đay
 package cinema;
 
 import DAO.KhachHangDAO;
