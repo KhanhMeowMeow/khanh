@@ -49,15 +49,9 @@ public class DangKy {
     }
     
     private void myGUI(){
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         System.out.println("");
-=======
-        System.out.println("Khánh thay đổi");
->>>>>>> 7674d0e5940bc5908acb4691aef16747b31ce692
-=======
-        System.out.println("Khánh thay đổi");
->>>>>>> 7674d0e5940bc5908acb4691aef16747b31ce692
+
        mainFrame = new JFrame();
        mainFrame.setSize(w, h);
        mainFrame.setLayout(null);
