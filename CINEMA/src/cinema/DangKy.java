@@ -50,7 +50,11 @@ public class DangKy {
     
     private void myGUI(){
 <<<<<<< HEAD
+<<<<<<< HEAD
         System.out.println("Thay đổi lần 2");
+=======
+        System.out.println("Khánh thay đổi");
+>>>>>>> 7674d0e5940bc5908acb4691aef16747b31ce692
 =======
         System.out.println("Khánh thay đổi");
 >>>>>>> 7674d0e5940bc5908acb4691aef16747b31ce692
