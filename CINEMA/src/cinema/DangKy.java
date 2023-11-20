@@ -49,7 +49,7 @@ public class DangKy {
     }
     
     private void myGUI(){
-        System.out.println("Khánh đã có mặt ở đây");
+        System.out.println("Khánh thay đổi");
        mainFrame = new JFrame();
        mainFrame.setSize(w, h);
        mainFrame.setLayout(null);
