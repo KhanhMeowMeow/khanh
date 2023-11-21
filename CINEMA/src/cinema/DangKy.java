@@ -55,7 +55,7 @@ public class DangKy {
     }
     
     private void myGUI(){
-        System.out.println("Thay đổi");
+        System.out.println("có cái con cặc nhé");
        mainFrame = new JFrame();
        mainFrame.setSize(w, h);
        mainFrame.setLayout(null);
