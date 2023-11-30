@@ -1,5 +1,5 @@
 #include <iostream>
 
 int main(){
-     count << "Chào mấy cưng";
+     count << "Chào anh Phát";
 }
