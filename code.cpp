@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main(){
-     count << "Chào cái quần què";
+     count << "Chào cái quần què cc";
 }
 
